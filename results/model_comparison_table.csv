@@ -1,0 +1,5 @@
+Model,Params,Accuracy (%),Precision (%),Recall (%),F1-Score (%),ROC-AUC,ONNX CPU (ms)
+Vanilla CNN,0.10M,92.9,93.69,92,92.84,0.9782,1037.92
+MobileNetV3-Small,1.52M,98.9,98.22,99.6,98.91,0.9988,3.22
+ResNet-18,11.17M,99.7,99.8,99.6,99.7,1,46.27
+SERA-CNN (Proposed),0.29M,98.8,99.39,98.2,98.79,0.9995,43.05
